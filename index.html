@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <script src="dashboard.js"></script>
+    <h1>Dashboard</h1>
+    <section>
+      <h2>Local known servers <button onclick="refreshStatus();" class="refresh" title="refresh">🔄</button></h2>
+      <table>
+        <thead>
+            <tr><th>Service</th><th>Port</th><th>Status</th><th>Webapps</th><th>Process</th></tr>
+        </thead>
+        <tbody id="dashboardKnown"></tbody>
+      </table>
+
+      <details>
+        <summary>
+          <h2>Everything else listening locally</h2>
+        </summary>
+        <table>
+          <thead><tr><th>Process</th><th>Port</th><th>PID</th></tr></thead>
+          <tbody id="dashboardOther"></tbody>
+        </table>
+      </details>
+    </section>
+  </body>
+</html>

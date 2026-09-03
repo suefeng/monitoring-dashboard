@@ -1,0 +1,158 @@
+body {
+   padding: 0 1rem 1rem;
+   margin: 0;
+   font-family: Avenir, Arial, sans-serif;
+   color: #e6e6e6;
+   background: #111418;
+   line-height: 1.5;
+}
+
+h1 {
+   text-align: center;
+   font-size: 1.3rem;
+   margin-bottom: 0;
+}
+
+summary {
+   cursor: pointer;
+}
+
+summary h2 {
+   display: inline;
+}
+
+.sub {
+    color: #8a8f98;
+    font-size: 0.85rem;
+    margin-bottom: 1.5rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 0.6rem 0.8rem;
+    border-bottom: 1px solid #333a44;
+}
+
+th {
+    color: #8a8f98;
+    font-weight: 500;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+th.today,
+td.today {
+    background-color: #2e353e;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.dot {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.up .dot {
+    background: #3fb950;
+    box-shadow: 0 0 6px #3fb95088;
+}
+
+.down .dot {
+    background: #444b54;
+}
+
+.up td:first-child {
+    color: #e6e6e6;
+}
+
+.down td {
+    color: #6a6f78;
+}
+
+.muted {
+    color: #6a6f78;
+    font-size: 0.85rem;
+}
+
+h2 {
+    font-size: 1rem;
+    margin: 2rem 0 0.5rem;
+    color: #c7cbd1;
+}
+
+summary h2 {
+    display: inline-block;
+}
+
+.webapps {
+    font-size: 0.85rem;
+}
+
+.webapps li {
+    color: #8a8f98;
+}
+
+.webapps .running {
+    color: #3fb950;
+}
+
+button {
+   appearance: none;
+   border: none;
+   border-radius: .2rem;
+   color: #000;
+   padding: .5rem;
+   background-color: #ff82de;
+   cursor: pointer;
+}
+
+button:hover {
+   background-color: #f0b280;
+}
+
+.refresh,
+.refresh:hover {
+   background-color: transparent;
+}
+
+.flex {
+   display: flex;
+}
+
+.tools {
+   display: flex;
+   gap: 1rem;
+   flex-wrap: wrap;
+}
+
+.tools > * {
+   min-width: 15rem;
+}
+
+.tools input {
+   padding: .5rem;
+}
+
+a {
+   color: #ff82de;
+   text-decoration: none;
+}
+
+a:hover {
+   color: #f0b280;
+}
